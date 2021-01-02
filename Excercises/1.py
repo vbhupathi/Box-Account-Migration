@@ -3,6 +3,6 @@
 name = input("Enter Your Name: ")
 print("You name is "+ name)
 age = int(input("Enter Your Age: "))
-# print("Your age is "+ age)
 year = str((2021-age)+100)
-print(name + " will be 100 years old in the year "+ year)
+numberOfPrints = input("How many times you want to print the message: ")
+print(int(numberOfPrints)*("\n "+ name + " will be 100 years old in the year "+ year))
