@@ -15,7 +15,7 @@ for element in a:
     if element < 5:  
         #print(element)
         new_list.append(element)    
-        print(new_list)
+print(new_list)
 
 # Extras:
 print([num for num in a if num < 5])
