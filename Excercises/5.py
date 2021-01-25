@@ -28,8 +28,15 @@ b = range(1, random.randint(5,30))
 
 new_list = []
 
-for num in a:
-    if num in b:
-        new_list.append(num)
+for item in a:
+    if item in b:
+        new_list.append(item)
 
 print(new_list)
+
+# Write this in one line of Python (don’t worry if you can’t figure this out at this point - we’ll get to it soon)
+import random
+
+a = range(1, random.randint(1,50))
+b = range(1, random.randint(5,30))
+print(set([item for item in a if  item in b]))
