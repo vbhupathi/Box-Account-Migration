@@ -18,6 +18,9 @@ def createBoxClient()
     configJson = os.getenv('BoxConfigJson')
     config = JWTAuth.from_settings_file(configJson)
     return Client(config)
+def getCurrentUser()
+    boxClient = createBoxClient()
+    current_user = boxClient.user().get()
 
 
 
