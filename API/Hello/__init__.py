@@ -6,8 +6,20 @@
 # - add azure-functions-durable to requirements.txt
 # - run pip install -r requirements.txt
 
+import os
 import logging
+from boxsdk import Client
+from boxsdk import JWTAuth
 
 
 def main(name: str) -> str:
-    return f"Hello {name}!"
+    return f"Hello {name}!"    
+def createBoxClient()
+    configJson = os.getenv('BoxConfigJson')
+    config = JWTAuth.from_settings_file(configJson)
+    return Client(config)
+
+
+
+
+
