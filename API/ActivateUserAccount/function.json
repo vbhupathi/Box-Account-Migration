@@ -1,0 +1,11 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "args",
+      "orchestration": "ActivateUserAccount",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
