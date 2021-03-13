@@ -1,0 +1,11 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "items",
+      "orchestration": "RemoveItems",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
