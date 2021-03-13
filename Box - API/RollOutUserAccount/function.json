@@ -1,0 +1,11 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "args",
+      "orchestration": "RollOutUserAccount",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
